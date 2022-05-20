@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "baseUrl": "..",
+    "paths": {
+      "types": [
+        "../Projekt_advanced-back/types"
+      ]
+    }
+  }
+}
