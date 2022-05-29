@@ -1,0 +1,15 @@
+.container_ships {
+    display: flex;
+    flex-direction: column;
+}
+
+.img_container_ships {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-between;
+
+}
+
+
