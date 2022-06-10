@@ -1,9 +1,20 @@
+
+@media (max-width: 500px) {
+    header {
+        padding: 0 10px;
+        .img_container {
+            width: 55%;
+            max-width: 220px;
+        }
+    }
+
+}
+
 header {
     height: 80px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    background-color: #fff;
 }
 
 header > * {
@@ -19,12 +30,15 @@ header > * > img {
     width: 20px;
     height: 20px;
     cursor: pointer;
+}
+
+.standard-opacity {
     opacity: 0.5;
 }
 
-/*.arrow:hover {
+.avalibility {
     opacity: 1;
-}*/
+}
 
 .arrow_container_1 {
     transform: rotate(180deg);

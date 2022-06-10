@@ -1,0 +1,164 @@
+@media (max-width: 500px) {
+    .container {
+        display: block;
+        padding: 10px 13px;
+        p.mission {
+            font-size: 1.8em;
+        }
+        a.learn_more {
+            display: block;
+            text-align: center;
+            padding: 15px;
+            margin-bottom: 20px;
+        }
+        .launch_date_launch_site_container > *:last-child {
+            padding-bottom: 0;
+        }
+    }
+
+
+
+}
+
+@media (min-width: 501px) {
+    .container {
+        display: flex;
+        padding: 20px 5px;
+    }
+    .launch_date_launch_site_container {
+        text-align: right;
+    }
+    .mission_rocket_learnmore_container .box_mission p.mission {
+        font-size: 1.6em;
+    }
+}
+.container {
+    border-top: 1px solid rgba(255, 255, 255, 0.24);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.24);
+
+}
+
+.mission_rocket_learnmore_container {
+        flex-basis: 50%
+}
+.mission_rocket_learnmore_container > * {
+    padding-bottom: 20px;
+}
+
+.mission_rocket_learnmore_container .box_mission p.mission_describe {
+    text-transform: uppercase;
+    opacity: 0.5;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+
+
+.mission_rocket_learnmore_container .box_rocket-new {
+    display: flex;
+}
+
+.box_rocket-new p {
+    font-weight: 500;
+}
+
+.mission_rocket_learnmore_container .box_rocket .rocket_describe {
+    text-transform: uppercase;
+    opacity: 0.5;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-bottom: 3px;
+}
+
+.mission_rocket_learnmore_container .box_rocket .rocket_describe {
+    display: inline-block;
+}
+
+.mission_rocket_learnmore_container span {
+    background-color: #3ba03b;
+    display: inline-block;
+    margin-left: 10px;
+    border-radius: 5px;
+    padding: 2px;
+    text-transform: uppercase;
+    font-size: 0.8em;
+    font-weight: 500;
+    color: black;
+    letter-spacing: 0.5px;
+}
+
+a.learn_more {
+    margin: 5px 0;
+    color: rgba(255, 255, 255, 0.81);
+    display: inline-block;
+    padding: 12px 25px;
+    font-size: 0.8em;
+    background-color: transparent;
+    text-transform: uppercase;
+    font-weight: 500;
+    border: 2px solid rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+p.mission {
+    font-weight: 500;
+}
+
+.launch_date_launch_site_container {
+    flex-basis: 50%;
+}
+
+
+
+.launch_date_launch_site_container .box_launch_date .launch_date {
+    opacity: 0.5;
+    text-transform: uppercase;
+    margin-bottom: 3px;
+    letter-spacing: 0.5px;
+    font-size: 0.9em;
+    font-weight: 400;
+}
+
+.launch_date_launch_site_container .box_launch_date .launch_site {
+    font-weight: 500;
+}
+
+.launch_date_launch_site_container > * {
+    padding-bottom: 20px;
+}
+
+.launch_date_launch_site_container .box_launch_site .launch_site {
+    text-transform: uppercase;
+    opacity: 0.5;
+    margin-bottom: 3px;
+    letter-spacing: 0.5px;
+    font-size: 0.9em;
+    font-weight: 400;
+
+
+}
+.launch_desc {
+    font-weight: 500;
+    cursor: pointer;
+
+}
+
+p.launch_desc_show {
+    margin-top: 5px;
+    margin-left: 50px;
+    width: 280px;
+    position: relative;
+    background-color: white;
+    color: black;
+    font-weight: 700;
+    text-align: center;
+    font-size: 0.6em;
+    padding: 2px;
+    opacity: 0;
+}
+
+.launch_desc:hover + p.launch_desc_show {
+    opacity: 1;
+}
+
+
