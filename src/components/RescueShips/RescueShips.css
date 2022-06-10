@@ -1,0 +1,41 @@
+@media (max-width: 500px) {
+    .container_ships {
+        display: block;
+        padding: 20px;
+
+    }
+
+    .img_container_ships {
+        display: block;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+}
+
+@media (min-width: 501px) {
+    .container_ships {
+        display: flex;
+        flex-direction: column;
+    }
+    .img_container_ships {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+

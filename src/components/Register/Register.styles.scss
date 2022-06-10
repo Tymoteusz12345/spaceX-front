@@ -1,0 +1,55 @@
+form > * {
+  color: black;
+}
+
+
+.body-container {
+  width: 100vh;
+  height: 100vh;
+  position: relative;
+}
+
+.register-container {
+  position: absolute;
+  top: calc(50% - 200px);
+  left: calc(50% - 250px);
+  background-color: #898181;
+  height: 300px;
+  text-align: center;
+  width: 400px;
+  margin: 0 auto;
+  border-radius: 20px;
+  h2 {
+    font-size: 1.2em;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    font-weight: 400;
+  }
+  form {
+
+    button {
+      padding: 10px 20px;
+      font-size: 15px;
+      margin-top: 5px;
+    }
+  }
+  p.confirmation {
+    margin-top: 20px;
+    font-weight: 400;
+  }
+  .link {
+    display: block;
+    margin-top: 10px;
+  }
+
+}
+
+form input {
+  width: 60%;
+  color: black;
+  font-size: 1em;
+  padding: 4px;
+  margin: 5px 0;
+}
+
+
