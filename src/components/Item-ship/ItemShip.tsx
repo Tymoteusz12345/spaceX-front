@@ -1,12 +1,14 @@
 import React from "react";
-import './ItemShip.css'
+import './ItemShip.scss'
 
 export const ItemShip = (props: any) => {
     // console.log(props.data)
     return (
         <>
             <div className="item">
-                <img src={props.data.image} alt=""/>
+                <div className="img_container_ship">
+                    <img src={props.data.image} alt=""/>
+                </div>
                 <div className="text-container">
                     <h2>{props.data.name}</h2>
                     <div className="container-inside-port">
@@ -14,7 +16,7 @@ export const ItemShip = (props: any) => {
                         <div className="right-p">{props.data.home_port}</div>
                     </div>
                     <div className="container-inside-weight">
-                        <div className="left-p">Weight</div>
+                        <div className="left-p">Weight [kg]</div>
                         <div className="right-p">{(props.data.weight_kg ? props.data.weight_kg : "unknown")}</div>
                     </div>
                 </div>

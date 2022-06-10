@@ -3,7 +3,7 @@
     "baseUrl": "..",
     "paths": {
       "types": [
-        "../Projekt_advanced-back/types"
+        "../back-end/back-end/types"
       ]
     }
   }

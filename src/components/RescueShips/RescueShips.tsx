@@ -1,7 +1,6 @@
 import React, {useContext} from 'react';
 import './RescueShips.css';
 import {ItemShip} from "../Item-ship/ItemShip";
-import {storeDataProvider} from "../../contexts/store.data.provider";
 
 export const RescueShips = (props: any) => {
     // console.log(props.newData, 'i m in RescueShips Component')
