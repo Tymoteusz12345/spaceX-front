@@ -12,7 +12,8 @@ In this project you can:
 ### if `types` folder does now work, make sure backend-app and front-end app is in the same folder.
 
 ### working paths are 3: http://localhost:3000/launches, http://localhost:3000/login, http://localhost:3000/register,
-if you want look at the main project without register, go for http://localhost:3000/launches
+
+### if you want look at the main project without register, go for http://localhost:3000/launches
 
 Available Scripts
 In the project directory, you can run:
